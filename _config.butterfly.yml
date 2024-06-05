@@ -58,7 +58,7 @@ archive_img: /images/cyberpunk-red.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: /images/cyberpunk-red.jpg
 
 # The banner image of tag page
 # format:
@@ -319,8 +319,8 @@ darkmode:
   # autoChangeMode: false
   autoChangeMode: true
   # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
-  start: # 8
-  end: # 22
+  start: 0 # 8
+  end: 0 # 22
 
 # show scroll percent in scroll-to-top button
 rightside_scroll_percent: false
