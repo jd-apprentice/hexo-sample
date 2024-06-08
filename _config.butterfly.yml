@@ -725,7 +725,7 @@ clickShowText:
 
 # Default display mode (網站默認的顯示模式)
 # light (default) / dark
-display_mode: light
+display_mode: dark
 
 # Beautify (美化頁面顯示)
 beautify:
@@ -777,6 +777,7 @@ subtitle:
     - shellcode inject x64 584
     - kali:~# hping3 --traceroute -V -1
     - user@parrot-$ sudo -l
+    - シン・アクマ
 
 # Loading Animation (加載動畫)
 preloader:
