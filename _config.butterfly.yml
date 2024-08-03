@@ -9,11 +9,11 @@ nav:
 
 # Menu 目錄
 menu:
-   Home: / || fas fa-home
-   Archives: /archives/ || fas fa-archive
-   VL-Writeups: /categories/vulnlab/ || fas fa-folder-open
-   Research: /categories/research/ || fas fa-folder-open
-   About: /about/ || fas fa-heart
+  Home: / || fas fa-home
+  Archives: /archives/ || fas fa-archive
+  VL-Writeups: /categories/vulnlab/ || fas fa-folder-open
+  Research: /categories/research/ || fas fa-folder-open
+  About: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -29,9 +29,8 @@ code_word_wrap: true
 # formal:
 #   icon: link || the description || color
 social:
-   fab fa-github: https://github.com/DaZ-CYBER || Github || '#24292e'
-   fab fa-linkedin: https://www.linkedin.com/in/daniel-feliciano-412921224/ || LinkedIn || '#4a7dbe'
-   fab fa-instagram: https://www.instagram.com/_danny_feli_/ || Instagram || '#cd486b'
+  fab fa-github: https://github.com/jd-apprentice || Github || '#24292e'
+  fab fa-linkedin: https://www.linkedin.com/in/jonathandyallo/ || LinkedIn || '#4a7dbe'
 
 # Image (圖片設置)
 # --------------------------------------
@@ -94,7 +93,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: false
-  subtitle: 'Page Not Found'
+  subtitle: "Page Not Found"
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
 post_meta:
@@ -264,7 +263,7 @@ aside:
   card_post_series:
     enable: true
     series_title: false # The title shows the series name
-    orderBy: 'date' # Order by title or date
+    orderBy: "date" # Order by title or date
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
 
 # busuanzi count for PV / UV in site
@@ -278,7 +277,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 6/4/2024 00:00:00 
+  publish_date: 6/4/2024 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -301,9 +300,9 @@ translate:
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
+  msgToTraditionalChinese: "繁"
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
+  msgToSimplifiedChinese: "簡"
 
 # Read Mode (閲讀模式)
 readmode: true
@@ -603,22 +602,22 @@ site_verification:
 # Notice: color value must in double quotes like "#000" or may cause error!
 
 theme_color:
-   enable: true
-   main: "#333333"
-   paginator: "#00c4b6"
-   button_hover: "#FF7242"
-   text_selection: "#00c4b6"
-   link_color: "#99a9bf"
-   meta_color: "#C25038"
-   hr_color: "#A4D8FA"
-   code_foreground: "#F47466"
-   code_background: "rgba(27, 31, 35, .05)"
-   toc_color: "#00c4b6"
-   blockquote_padding_color: "#49b1f5"
-   blockquote_background_color: "#49b1f5"
-   scrollbar_color: "#49b1f5"
-   meta_theme_color_light: "ffffff"
-   meta_theme_color_dark: "#0d0d0d"
+  enable: true
+  main: "#333333"
+  paginator: "#00c4b6"
+  button_hover: "#FF7242"
+  text_selection: "#00c4b6"
+  link_color: "#99a9bf"
+  meta_color: "#C25038"
+  hr_color: "#A4D8FA"
+  code_foreground: "#F47466"
+  code_background: "rgba(27, 31, 35, .05)"
+  toc_color: "#00c4b6"
+  blockquote_padding_color: "#49b1f5"
+  blockquote_background_color: "#49b1f5"
+  scrollbar_color: "#49b1f5"
+  meta_theme_color_light: "ffffff"
+  meta_theme_color_dark: "#0d0d0d"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
@@ -685,7 +684,7 @@ canvas_fluttering_ribbon:
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
   enable: false
-  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+  color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
@@ -706,18 +705,18 @@ click_heart:
 clickShowText:
   enable: true
   text:
-     - getsystem
-     - sudo rm -rf
-     - root
-     - administrator
-     - havoc
-     - sliver
-     - cobalt strike
-     - python
-     - c#
-     - daz
-     - empire
-     - ( ͡° ͜ʖ ͡°)
+    - getsystem
+    - sudo rm -rf
+    - root
+    - administrator
+    - havoc
+    - sliver
+    - cobalt strike
+    - python
+    - c#
+    - daz
+    - empire
+    - ( ͡° ͜ʖ ͡°)
 
   fontSize: 15px
   random: true
@@ -815,7 +814,7 @@ fancybox: true
 # series (系列文章)
 series:
   enable: true
-  orderBy: 'title' # Order by title or date
+  orderBy: "title" # Order by title or date
   order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
   number: true
 
@@ -872,8 +871,8 @@ aplayerInject:
 snackbar:
   enable: true
   position: bottom-left
-  bg_light: '#49b1f5' # The background color of Toast Notification in light mode
-  bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
+  bg_light: "#49b1f5" # The background color of Toast Notification in light mode
+  bg_dark: "#1f1f1f" # The background color of Toast Notification in dark mode
 
 # https://instant.page/
 # prefetch (預加載)
